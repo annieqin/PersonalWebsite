@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block nav %}
+{% include 'nav_index.html' %}
+{% endblock %}
+
+{% block container %}
+<div class="row">
+  <div class="col-sm-8 blog-main">
+    <p>xxx</p>
+    <div class="panel panel-default">
+      <div class="panel-heading">Blog</div>
+      <div class="panel-body">xx</div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 blog-sidebar">
+    <div class="panel panel-default">
+      <div class="sidebar-module">xxx</div>
+      <div class="sidebar-module">xxx</div>
+      <div class="sidebar-module">xxx</div>
+      <div class="panel-heading">{% block heading %}{% endblock %}</div>
+      <div class="panel-body">{% block body %}{% endblock %}</div>
+    </div>
+  </div>
+</div>
+{% endblock %}

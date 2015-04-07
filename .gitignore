@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# C extensions
+*.so
+
+.idea
+
+config.py
+pep8.sh

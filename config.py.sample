@@ -1,0 +1,22 @@
+# coding: utf-8
+# email: khahux@163.com
+
+
+# site config
+
+DEBUG = True
+TESTING = True
+SECRET_KEY = 'change me'
+
+PORT = 1991
+
+# db config
+
+db_config = {
+    'host': '127.0.0.1',
+    'port': 3306,
+    'user': 'root',
+    'password': 'change me',
+    'database': 'change me',
+    'charset': 'utf8',
+}

@@ -1,0 +1,19 @@
+{% extends "base_admin.html" %}
+
+{% block col2 %}
+    <div class="panel panel-default">
+      <div class="panel-heading">Write Blog</div>
+      <div class="panel-body">New ...</div>
+      <div class="panel-heading">归档</div>
+      <div class="panel-body">2015-03-30</div>
+      <div class="panel-heading">标签</div>
+      <div class="panel-body">Python</div>
+    </div>
+{% endblock %}
+
+{% block col10 %}
+    <div class="panel panel-default">
+      <div class="panel-heading">{% block heading %}Khahu Blog 后台{% endblock %}</div>
+      <div class="panel-body">{% block body %}balabala...{% endblock %}</div>
+    </div>
+{% endblock %}
